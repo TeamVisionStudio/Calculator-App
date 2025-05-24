@@ -1,0 +1,186 @@
+body {
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Andale Mono, monospace;
+  transition: 0.3s ease;
+}
+
+body.white-mode {
+  background-color: black;
+  color: white;
+}
+
+body.white-mode #kalkulator {
+  background-color: #222;
+}
+#napis{
+    text-align: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0, auto;
+    left: 50%;
+    right: 50%;
+    font-size: 40px;
+}
+#guzik{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transition: 0.3s ease;
+    text-align: center;
+    position: absolute;
+    right: 30px;
+    background-color: white;
+    border: 1px solid black;
+}
+body.white-mode #guzik{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+body.white-mode #guzik:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+#guzik:hover{
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+
+header {
+  text-align: center;
+  padding: 20px;
+  height: 50px;
+  line-height: 25px;
+  transition: color 0.3s ease;
+  display: flex;
+}
+
+body.white-mode header {
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  padding: 0;
+  margin: 0;
+}
+
+td {
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+}
+
+button {
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: #f0f0f0;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+body.white-mode button {
+  background-color: #444;
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(255, 249, 161);
+}
+
+body.white-mode button:hover {
+  background-color: rgb(255, 249, 161);
+  color: black;
+}
+
+#eq {
+  background-color: rgb(173, 202, 255);
+}
+
+#eq:hover {
+  background-color: rgb(255, 161, 161);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+#kalkulator {
+  background-color: rgb(75, 75, 75);
+  padding: 0;
+  margin: 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  transition: background-color 0.3s ease;
+}
+
+#mainwynik {
+  height: 60px;
+  padding: 0 10px;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #333;
+  border-bottom: 2px solid #555;
+  box-sizing: border-box;
+  border-radius: 8px 8px 0 0;
+}
+
+body.white-mode #mainwynik {
+  background-color: #111;
+  border-bottom: 2px solid #777;
+}
+
+#display {
+  width: 100%;
+  border: none;
+  background: transparent;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: right;
+  color: white;
+  outline: none;
+  pointer-events: none;
+  font-family: monospace;
+}
+
+body.white-mode #display {
+  color: #fff9c4;
+}
+
+#social {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#copy {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: gray;
+}
+
+body.white-mode #copy {
+  color: #ccc;
+}

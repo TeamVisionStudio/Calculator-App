@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="shortcut icon" href="favic.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <section>
+            <h1 id="napis" >Kalkulator</h1>
+        </section>
+        <section>
+            <button id="guzik">Zmień Motyw</button>   
+        </section>
+
+    </header>
+    <main>
+        <section id="kalkulator">
+            <section id="mainwynik">
+                <input type="text" name="wynik" id="display" disabled>
+            </section>
+            <section id="liczby">
+                <table>
+                    <tr>
+                        <td><button onclick="percent()">%</button></td>
+                        <td><button onclick="clearEntry()">CE</button></td>
+                        <td><button onclick="clearAll()">C</button></td>
+                        <td><button onclick="backspace()">⌫</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="jedenprzezx()">1/x</button></td>
+                        <td><button onclick="square()">x²</button></td>
+                        <td><button onclick="sqrt()">√</button></td>
+                        <td><button onclick="press('/')">/</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="press('7')">7</button></td>
+                        <td><button onclick="press('8')">8</button></td>
+                        <td><button onclick="press('9')">9</button></td>
+                        <td><button onclick="press('*')">*</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="press('4')">4</button></td>
+                        <td><button onclick="press('5')">5</button></td>
+                        <td><button onclick="press('6')">6</button></td>
+                        <td><button onclick="press('-')">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="press('1')">1</button></td>
+                        <td><button onclick="press('2')">2</button></td>
+                        <td><button onclick="press('3')">3</button></td>
+                        <td><button onclick="press('+')">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="negate()">±</button></td>
+                        <td><button onclick="press('0')">0</button></td>
+                        <td><button onclick="press('.')">,</button></td>
+                        <td><button onclick="calculate()">=</button></td>
+                    </tr>
+                </table>
+            </section>
+            
+        </section>
+    </main>
+    <footer style="margin: 0%;">
+        <section id="social">
+            <p>
+            <a  style="color: #E1306C; margin-right: 15px; text-decoration: none;" target="_blank" href="https://www.instagram.com/team_vision_studio">
+                <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a style="color: #00d1e0; margin-right: 15px; text-decoration: none;" target="_blank" href="https://www.tiktok.com/@team_vision_sudio">
+                <i class="fab fa-tiktok fa-2x"></i>
+            </a>
+            <a style="color: blue; margin-right: 15px; text-decoration: none;"  target="_blank" href="https://www.facebook.com/profile.php?id=61556092873561">
+                <i class="fab fa-facebook fa-2x"></i>
+            </a>
+            <a style="color: red; margin-right: 15px; text-decoration: none;" target="_blank" href="https://www.youtube.com/@Team_Vision_Studio">
+                <i class="fab fa-youtube fa-2x"></i>
+            </a>
+            <br>
+        </p>
+        </section>
+        <section id="copy">
+            <br>
+            <p id="copy">© 2025 Team Vision Studio. Wszelkie prawa zastrzeżone.</p>
+        </section>
+        
+    </footer>
+</body>
+</html>
