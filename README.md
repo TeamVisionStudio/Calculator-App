@@ -29,5 +29,8 @@ This project is licensed under the MIT License.
 
 ---
 
-*Created by Antii0112, JOTWU, and Tw3lv33*  
+*Created by:
+[Anti](https://github.com/Antii0112) 
+[JOTWU](https://github.com/JOTWU1337) 
+[Tw3lv33](https://github.com/Tw3lv33)*  
 *Team Vision Studio*
